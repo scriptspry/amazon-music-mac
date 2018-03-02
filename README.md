@@ -7,8 +7,7 @@ Just added keyboard shortcuts for:
 * Play/Pause
 * Next
 * Previous
-* Search
 
-[Download](https://raw.githubusercontent.com/scriptspry/amazon-music-mac/master/build/AmazonMusic.zip)
+[Download](https://raw.githubusercontent.com/scriptspry/amazon-music-mac/master/build/AmazonMusic.zip) | [Home](http://scriptspry.com/2018/03/02/amazon-music-mac-app.html)
 
 Enjoy! See [License](LICENSE.md)
