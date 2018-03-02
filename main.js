@@ -107,12 +107,4 @@ const bindHelperShortcuts = (webView) => {
       keyCode: 'Left'
     })
 	});
-	
-	globalShortcut.register('Command+F', () => {
-		webView.executeJavaScript(`$('#searchMusic').focus();`);
-	});
-
-	globalShortcut.register('Command+R', () => {
-		webView.reload();
-	});
 };
