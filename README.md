@@ -9,4 +9,6 @@ Just added keyboard shortcuts for:
 * Previous
 * Search
 
+[Download](https://raw.githubusercontent.com/scriptspry/amazon-music-mac/master/build/AmazonMusic.zip)
+
 Enjoy! See [License](LICENSE.md)
