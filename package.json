@@ -1,7 +1,7 @@
 {
   "name": "amazon-music-mac",
   "productName": "Amazon Music",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Amazon Music (IN) Mac App",
   "main": "main.js",
   "repository": {
@@ -12,7 +12,8 @@
     "start": "electron .",
     "clean": "rm -rf build/*",
     "build": "npm run clean; electron-packager ./ --platform=darwin --arch=x64 --out=build --overwrite --icon=logo.icns",
-    "install": "npm run build; cp -r 'build/Amazon Music-darwin-x64/Amazon Music.app/' '/Applications/Amazon Music.app'"
+    "install-app": "npm run build; cp -r 'build/Amazon Music-darwin-x64/Amazon Music.app/' '/Applications/Amazon Music.app'",
+    "package": "npm run build; cd 'build/Amazon Music-darwin-x64'; 7z a ../AmazonMusic.zip .; cd -"
   },
   "keywords": [
     "Amazon Music",
@@ -27,7 +28,7 @@
   },
   "homepage": "http://scriptspry.com/2018/03/02/amazon-music-mac-app.html",
   "devDependencies": {
-    "electron": "^1.8.2",
+    "electron": "^1.8.4",
     "electron-packager": "^11.0.1"
   }
 }
